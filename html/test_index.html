@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<Meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Button</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpineJs@3.13.2/dist/cdn.min.js"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-gray-100">
+<button 
+    x-data="{clicked: false}"
+    @click="clicked = true"
+    :class="{ 'bg-green-500': clicked, 'bg-gray-200': !clicked }"
+    :aria-pressed="clicked.toString()"
+    class="p-4 text-white font-bold text-lg uppercase transition-colors duration-300 hover:bg_opacity-90"
+    role="button">
+    <span x-text="clicked ? 'Clicked!' : 'Click me!':"></span>
+    </button>
+</body>
+</html>

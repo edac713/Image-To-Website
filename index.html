@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,12 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .star-rating {
-      color: #facc15; /* Tailwind yellow-400 */
+      color: #facc15;
+      /* Tailwind yellow-400 */
     }
   </style>
 </head>
+
 <body class="bg-gray-100">
   <div class="max-w-md mx-auto p-5">
     <div x-data="{ reviews: [
@@ -24,9 +26,9 @@
       <template x-for="review in reviews" :key="review.name">
         <div class="bg-white shadow-md rounded-lg p-4 mb-4">
           <div class="flex items-start mb-1">
-            <div class="flex-shrink-0 rounded-full text-white font-medium h-10 w-10 flex items-center justify-center mr-3 profile-bg"
-                 :class="randomBgColors[Math.floor(Math.random() * randomBgColors.length)]"
-                 x-text="review.initial"></div>
+            <div
+              class="flex-shrink-0 rounded-full text-white font-medium h-10 w-10 flex items-center justify-center mr-3 profile-bg"
+              :class="randomBgColors[Math.floor(Math.random() * randomBgColors.length)]" x-text="review.initial"></div>
             <div class="flex-1 min-w-0">
               <p class="text-base font-semibold text-gray-900" x-text="review.name"></p>
               <div class="flex items-center text-xs text-gray-500 mt-1">
@@ -46,4 +48,5 @@
 
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>
 </body>
+
 </html>

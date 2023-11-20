@@ -4,7 +4,7 @@ This is just a placeholder :p
 
 ## ACTION SCHEMA
 
-```yaml
+```json
 
 openapi: "3.0.0"
 info:

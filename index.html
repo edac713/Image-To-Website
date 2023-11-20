@@ -3,41 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Review Cards</title>
+  <title>Customer Reviews</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.js" defer></script>
-</head>
-<body class="bg-gray-100">
-
-  <div class="max-w-md mx-auto py-10">
-    <!-- Alpine.js component for review -->
-    <div x-data="{ expanded: false }" class="bg-white p-4 my-4 shadow rounded-lg transition-all duration-500 ease-in-out">
-      <!-- User info, stars, and timestamp -->
-      <div class="flex items-center mb-4 justify-between">
-        <div class="flex items-center">
-          <img class="w-12 h-12 rounded-full mr-3" src="https://placehold.co/100x100" alt="profile">
-          <div class="flex flex-col">
-            <div class="font-semibold">John Capello</div>
-            <div class="flex items-center">
-              <div class="text-yellow-400 text-lg">★★★★★</div> <!-- Stars right next to the name -->
-              <div class="text-sm text-gray-600 ml-2">2 months ago</div> <!-- Timestamp next to the stars -->
-            </div>
-          </div>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+  <div class="max-w-sm mx-auto">
+    <!-- Customer Review Card -->
+    <div class="mt-4 p-4 bg-white rounded-lg border shadow-md">
+      <div class="flex items-center">
+        <div class="text-lg font-semibold">Ben Klotz</div>
+        <div class="ml-auto text-yellow-400">
+          <!-- Rating Stars -->
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
         </div>
       </div>
-      
-      <!-- Review text -->
-      <p class="text-gray-800 mb-4">Love these hats. It's my go to place to get custom hats with vintage patches sewn on. This is my fourth hat and certainly not my last. I have purchased both premade and custom hats picking out by me. All great quality!</p>
-      
-      <!-- Image with interactive expanding -->
-      <div class="aspect-w-16 aspect-h-9 w-full overflow-hidden rounded-lg cursor-pointer transition-all duration-300 ease-in-out" :class="{'aspect-h-auto': expanded}">
-        <img @click="expanded = !expanded" :class="{'rounded-none': expanded, 'rounded-lg': !expanded}" x-bind:src="expanded ? 'https://cdn.shopify.com/s/files/1/0569/9295/6486/files/IMG_John_Capello.jpg?v=1700161670' : 'https://cdn.shopify.com/s/files/1/0569/9295/6486/files/IMG_8221.jpg?v=1700162690'" alt="Hat image" class="object-cover object-center w-full h-full transition-all duration-300 ease-in-out">
+      <div class="mt-2 text-gray-600">
+        Two great hats! The quality of the materials is good, and the work sewing the labels on was well done. I will buy from Gearheadhats again. Great quality!
       </div>
     </div>
 
-    <!-- Repeat the component for other reviews as needed -->
-    <!-- ... -->
-  </div>
+    <!-- More customer review cards can be added here -->
 
+  </div>
 </body>
 </html>

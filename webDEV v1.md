@@ -231,7 +231,7 @@ plt.show()
         {% if block.settings.image %}
           <div
             class="review-image"
-            style="background-image: url('https://cdn.shopify.com/s/files/1/0569/9295/6486/files/{{ block.settings.image | split: '/' | last }}?v=1700161670');"
+            style="background-image: url('');"
           > </div>
         {% endif %}
       </div>

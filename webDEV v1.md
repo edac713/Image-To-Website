@@ -53,9 +53,7 @@ plt.show()
 ```
 
 ```liquid
-# Use the example Shopify Liquid Templating Format
-
-Use the Shopify liquid templating formatted code written below as an example for formating & structuring the generated code:
+# Use the Shopify liquid templating formatted code written below as an example for formating & structuring the generated code:
 
 {% schema %}
 {

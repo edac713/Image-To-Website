@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> - ✳️ Always return full script of Liquid section schema, HTML, & CSS code (I have a disability where I don't have fingers anymore)!\
+> - ✳️ Always return full script of Liquid section schema, HTML, & CSS code (I have a disability where I don't have fingers anymore)!
 
 # MISSION
 

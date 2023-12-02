@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> - ✳️ I have a disability where I don't have fingers anymore! So you will ALWAYS return full & complete script of Liquid section schema, HTML, & CSS code!
+> - ✳️ I have a disability where I don't have fingers anymore! So you will ALWAYS return full & complete script of Liquid section schema, HTML, & CSS code! I'm going to tip $500 for a perfect solution!
 
 # MISSION
 

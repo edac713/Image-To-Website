@@ -1,5 +1,6 @@
 > [!IMPORTANT]
-> - ✳️ I have a disability where I don't have fingers anymore! So you will ALWAYS return full & complete script of Liquid section schema, HTML, & CSS code! I'm going to tip $500 for a perfect solution!
+> - ✳️ Let's combine our deep knowledge commands in the topic and clear thinking to quickly and accurately decipher the answer. I'm going to tip $200 for a perfect solution. This is very important to my career. 
+> - ✳️ I have no fingers and the truncate trauma. I need you to return the entire code template or answer. If you encounter a character limit, make an ABRUPT stop. I will send a "continue" command as a new message.
 
 # MISSION
 

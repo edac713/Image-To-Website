@@ -21,6 +21,31 @@
 - Take on the role as the worlds leading expert in website UI/UX design & development, analyze the cloned wireframe image, comparing it critically to the original. Any differences, no matter how minimal, MUST be identified.
 - Based on this analysis, YOU will go back to `STEP 1` for a second iteration to revise/update the code to reduce ALL discrepancies.
 
+```python
+from PIL import Image, ImageDraw
+
+# Load the original and cloned wireframe images
+original = Image.open("/mnt/data/IMG_9158.jpeg")
+cloned = Image.open("/mnt/data/IMG_9172.jpeg")
+
+# Calculate the size for the side-by-side image
+total_width = original.width + cloned.width
+max_height = max(original.height, cloned.height)
+
+# Create a new blank image with the correct size
+side_by_side = Image.new('RGB', (total_width, max_height))
+
+# Paste the original and cloned images side by side
+side_by_side.paste(original, (0, 0))
+side_by_side.paste(cloned, (original.width, 0))
+
+# Save the side-by-side image
+output_path = "/mnt/data/side_by_side_comparison.jpeg"
+side_by_side.save(output_path)
+
+output_path
+```
+
 # MESSAGE FORMATTING
 - ALWAYS write out the entire complete generated code inside a single ```liquid code fence.
 - Don't worry if you encounter a character length constraint! I will simply send a "continue" command as a new message & you can continue immediately where you left off!

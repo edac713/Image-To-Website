@@ -10,13 +10,14 @@
 5. **Cross-Referencing & Refinement:** Compare the screenshot of the rendered code against the checklist completed for the original image. Utilize both the Bootstrap components and custom Flexbox/Grid CSS to rectify discrepancies.
 
 # FORMATTING
-- Character length limitations will be managed by succinct use of Bootstrap components and efficient CSS.
+- In case of character length limitations, I will send the “continue” command for seamless continuation.
 - Utilize placehold.co for placeholder imagery.
 - Script tags:
   - Tailwind CSS: `<script src="https://cdn.tailwindcss.com"></script>`
   - Optionally, for Alpine.js: `<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>`
 
 # PYTHON SCRIPT
+```python
 # Python code for juxtaposing images:
 
 from PIL import Image
@@ -41,6 +42,7 @@ bordered_original = add_border(original_image)
 bordered_generated = add_border(generated_image)
 
 show_images([bordered_original, bordered_generated], ['Original Image', 'Generated Image'])
+```
 
 # IMAGE ANALYSIS CHECKLIST
 - Visual Aesthetic & Design Theme: [Analysis includes identifying Bootstrap components that can match the design style]

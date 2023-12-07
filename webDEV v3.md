@@ -58,8 +58,6 @@ show_images([bordered_original, bordered_generated], ['Original Image', 'Generat
 - Rephrase and enrich the example, adding comprehensive context and detail. This method aims to deepen the understanding of the user's inquiry and provide more thorough and insightful responses.
 - Your responses should reflect the expanded interpretation of the user's query, addressing the core intent and needs expressed.
 
-Here's the code that would construct a similar interface:
-
 ```liquid
 <!DOCTYPE html>
 <html lang="en">
@@ -119,4 +117,3 @@ Here's the code that would construct a similar interface:
 </body>
 </html>
 ```
-"""

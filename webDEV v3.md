@@ -58,62 +58,46 @@ show_images([bordered_original, bordered_generated], ['Original Image', 'Generat
 - Rephrase and enrich the example, adding comprehensive context and detail. This method aims to deepen the understanding of the user's inquiry and provide more thorough and insightful responses.
 - Your responses should reflect the expanded interpretation of the user's query, addressing the core intent and needs expressed.
 
-```liquid
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hat Builder</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>
-</head>
-<body class="bg-gray-50">
-  <nav class="flex items-center justify-between p-4 border-b">
-    <button class="text-gray-600">
-      <img src="https://placehold.co/20x20" alt="Back arrow icon">
-    </button>
-    <h1 class="text-xl font-semibold">Hat Builder</h1>
-    <button class="text-gray-600">
-      <img src="https://placehold.co/20x20" alt="Help icon">
-    </button>
-  </nav>
-  <header class="text-center p-4">
-    <p class="text-gray-500 text-sm">pick a patch & hat</p>
-  </header>
-  <section class="flex flex-col items-center p-4">
-    <img class="mb-4 w-48 h-48" src="https://placehold.co/300x300" alt="Hat">
-    <button class="bg-black text-white px-6 py-2 rounded-full">Add to cart</button>
-  </section>
-  <div class="flex justify-center bg-gray-100 p-2" x-data="{ tab: 'patches' }">
-    <button class="px-4 py-2 text-sm font-medium" :class="{ 'text-black': tab === 'patches', 'text-gray-400': tab !== 'patches' }" @click="tab = 'patches'">Patches</button>
-    <button class="px-4 py-2 text-sm font-medium" :class="{ 'text-black': tab === 'hats', 'text-gray-400': tab !== 'hats' }" @click="tab = 'hats'">Hats</button>
-  </div>
-  <div class="p-4">
-    <input class="border p-2 rounded w-full" type="search" placeholder="Search">
-  </div>
-  <main class="p-4">
-    <div x-show="tab === 'patches'">
-      <div class="mb-4">
-        <h2 class="text-lg font-bold">All Patches</h2>
-        <p class="text-gray-500 text-sm">518 Patches</p>
-        <div class="grid grid-cols-3 gap-4">
-          <img src="https://placehold.co/100x100" alt="Patch">
-          <img src="https://placehold.co/100x100" alt="Patch">
-          <img src="https://placehold.co/100x100" alt="Patch">
-        </div>
-      </div>
-      <div class="mb-4">
-        <h2 class="text-lg font-bold">NASCAR</h2>
-        <p class="text-gray-500 text-sm">84 Patches</p>
-        <div class="grid grid-cols-3 gap-4">
-          <img src="https://placehold.co/100x100" alt="Patch">
-          <img src="https://placehold.co/100x100" alt="Patch">
-          <img src="https://placehold.co/100x100" alt="Patch">
-        </div>
-      </div>
-    </div>
-  </main>
-</body>
-</html>
-```
+# UI-UX Design Image Analysis Checklist
+
+Use this checklist in markdown format by systematically filling it out, covering all aspects of UI-UX design analysis, including standard elements & additional components not specified. Each section includes input fields for detailed observations and evaluations.
+
+## Initial Overview
+- Theme and Style: `[Input: Describe the overall theme and style]`
+- Primary Color Scheme: `[Input: Note primary colors used]`
+- Type of Web App: `[Input: Determine the type of web app]`
+
+## Element Analysis: Left to Right, Top to Bottom
+- Elements on Left Side: `[Input: List elements from left to right]`
+- Position and Function: `[Input: Record position and function of each element]`
+- Top to Bottom Elements: `[Input: List elements from top to bottom]`
+
+## Styling of Elements and Components
+- Textual Elements: `[Input: Detail color, font, size of text]`
+- Buttons and Icons: `[Input: Describe shape, color, size]`
+- Images/Graphics Style: `[Input: Analyze style and effects]`
+
+## Layout Structure
+- Grid/Structure Used: `[Input: Outline structure (columns, rows)]`
+- Spacing Between Elements: `[Input: Describe margins, padding]`
+- Alignment of Elements: `[Input: Note alignment (left, center, right)]`
+
+## Depth Analysis: Front to Back
+- Foreground Elements: `[Input: Identify foreground elements]`
+- Background Elements: `[Input: Examine background elements]`
+- Layered/Overlapping Components: `[Input: Determine layered elements]`
+
+## Interactive Features
+- Hover Effects/Animations: `[Input: Note hover effects, animations]`
+- Clickable Elements: `[Input: Identify clickable elements and actions]`
+- Form Elements: `[Input: Describe form elements and functionalities]`
+
+## Consistency Check
+- Stylistic Consistency: `[Input: Ensure consistency across elements]`
+- Uniformity in Layout: `[Input: Verify uniformity in layout, spacing]`
+- Color and Font Coherence: `[Input: Confirm coherence in color, fonts]`
+
+## Fine Details
+- Subtle Textures/Patterns: `[Input: Record subtle textures, patterns]`
+- Shadows/Borders: `[Input: Note shadows, borders, other details]`
+- Readability/Visibility: `[Input: Examine text and image visibility]`

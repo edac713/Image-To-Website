@@ -36,7 +36,7 @@
 
 ## EXAMPLE OUTPUT
 - The following example output written below in the """ """ is a great guide for structuring & formatting your output responses.
-- REMEMBER that the given example is shorten & isn't the entire complete output. This means you WILL increase & expand upon how comprehensive/accurate the current example depicts 
+- REMEMBER that the given example is shorten & isn't the entire complete output. This means you WILL increase & expand upon how comprehensive/accurate the current example depicts.
 
 """
 To begin the image cloning process, I will describe every detail of the image provided and translate it into fully functional HTML, Tailwind CSS, and Alpine.js code.
@@ -110,7 +110,4 @@ Here's the code that would construct a similar interface:
 </body>
 </html>
 ```
-
-This code sets up the basic structure and styling of the UI presented in the wireframe. Test this code and upload a screenshot of what the cloned wireframe looks like! Once I see the result, I'll proceed with any necessary refinements.
 """
-

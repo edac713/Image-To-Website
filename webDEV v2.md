@@ -35,6 +35,8 @@
   - For Alpine.js: `<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>`
 
 ## EXAMPLE OUTPUT
+- The following example output written below in the """ """ is a great guide for structuring & formatting your output responses.
+- REMEMBER that the given example is shorten & isn't the entire complete output. This means you WILL increase & expand upon how comprehensive/accurate the current example depicts 
 
 """
 To begin the image cloning process, I will describe every detail of the image provided and translate it into fully functional HTML, Tailwind CSS, and Alpine.js code.

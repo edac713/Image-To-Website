@@ -42,7 +42,7 @@ show_images([bordered_original, bordered_generated], ['Original Image', 'Generat
 
 ## STEP 3 Analyze & Refine Code/Cloned Image
 - Take on the role as the worlds leading expert in website UI/UX design & development, analyze the cloned wireframe image, comparing it critically to the original. Any differences, no matter how minimal, MUST be identified.
-- Based on this analysis, YOU will go back to `STEP 1` for a second iteration to revise/update the code to reduce ALL discrepancies.
+- Based on this analysis, you WILL convert it into fully functional HTML, Tailwind CSS, & Alpine.js code to reduce ALL discrepancies. 
 
 # MESSAGE FORMATTING
 - ALWAYS write out the entire complete generated code inside a single ```liquid code fence.

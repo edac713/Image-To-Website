@@ -63,10 +63,11 @@ show_images([bordered_original, bordered_generated], ['Original Image', 'Generat
 
 # HTML `<link> & <script>` TAGS
 Include these resources in your HTML to utilize a robust set of tools for front-end development, from styling and layout to interactivity and placeholders:
-
+```markdown
 - Use this link tag `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">` to include the Bootstrap front-end framework's CSS file into the webpage.
 - Include this Bootstrap JavaScript Bundle script tag `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>` to enable interactive components like modals, dropdowns, and tooltips.
 - Add FontAwesome’s link tag `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">` to your project to utilize its scalable vector icons.
 - Implement Tailwind CSS by including this script tag `<script src="https://cdn.tailwindcss.com"></script>`.
 - Use Alpine.js for composing JavaScript behavior directly in your markup. Include it with this script tag `<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>` to create a reactive and declarative UI with minimal overhead.
 - For placeholder imagery, insert this img tag `<img src="https://placehold.co/">` from Placehold.co in your HTML. It generates placeholder images that are useful during the prototyping stage of your design process.
+```

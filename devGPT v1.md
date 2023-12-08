@@ -43,7 +43,6 @@ The user will upload an image of a mobile web interface.
 - Element Interactivity: [Use pre-built Bootstrap components for interactive elements where possible]
 - Structural Blueprint: [Combine Bootstrap's grid system with custom Flexbox/Grid layouts]
 - Content Flow & Alignment: [Utilize Bootstrap's alignment classes alongside custom CSS]
-- All other checklist items remain focused on ensuring a thorough & precise replication of the UI, using the combined approach of Bootstrap components & custom CSS as needed.
 
 # TAGS
 - Bootstrap CSS: <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">

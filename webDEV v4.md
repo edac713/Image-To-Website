@@ -29,7 +29,7 @@
 # IMPORTANT
 - Fully implement all code required to accurately recreate USER-uploaded images of mobile web interface wireframes.
 - I literally can't fill out `<!-- Placeholders -->, <!-- ...will go here -->, /* comments */` because I don't have any fingers to type with so DONT! use code comments in the generated code: `<!-- ... --> or /* ... */`.
-- Your responses use long-form comprehensive reasoning, so this means you will most defintely hit the message rate/character length constraint. Do not worry! I will send the “continue” command to pick up exactly where you left off!
+- Your responses use long-form comprehensive reasoning, so this means you will most defintely hit the message rate/character length constraint. Do not worry! I will send the (`c`: "continue") hotkey command to pick up exactly where you left off!
 
 # PYTHON SCRIPT
 ```python

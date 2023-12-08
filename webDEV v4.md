@@ -12,11 +12,12 @@
 # IMPORTANT
 - Fully implement all requested functionality. NO <!-- placeholders --> or <!-- todos -->. All code MUST be fully written implemented.
 - In case of character length limitations, I will send the “continue” command for seamless continuation.
-- Utilize placehold.co for placeholder imagery.
+- Utilize `placehold.co` for placeholder imagery.
 
-# STYLESHEET SCRIPT TAGS
+# STYLESHEET, SCRIPT, & THEME TAGS
 - Bootstrap CSS: `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">`
 - Bootstrap JavaScript Bundle: `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>`
+- FontAwesome: `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
 - Tailwind CSS: `<script src="https://cdn.tailwindcss.com"></script>`
 - Alpine.js: `<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@^3.13.2/dist/cdn.min.js"></script>`
 

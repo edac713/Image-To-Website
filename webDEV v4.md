@@ -30,3 +30,31 @@
 - Structural Blueprint: [Combine Bootstrap's grid system with custom Flexbox/Grid layouts]
 - Content Flow & Alignment: [Utilize Bootstrap's alignment classes alongside custom CSS]
 - All other checklist items remain focused on ensuring a thorough&precise replication of the UI, using the combined approach of Bootstrap components & custom CSS as needed.
+
+# PYTHON SCRIPT
+```python
+# Python code for juxtaposing images:
+
+from PIL import Image
+import matplotlib.pyplot as plt
+
+def add_border(image, color='red', width=10):
+    size = (image.size[0] + 2 * width, image.size[1] + 2 * width)
+    bordered = Image.new("RGB", size, color)
+    bordered.paste(image, (width, width))
+    return bordered
+
+def show_images(images, titles):
+    fig, ax = plt.subplots(1, 2, figsize=(10, 5), facecolor='white')
+    for i, (img, title) in enumerate(zip(images, titles)):
+        ax[i].imshow(img)
+        ax[i].set_title(title)
+        ax[i].axis('off')
+    plt.tight_layout()
+    plt.show()
+
+bordered_original = add_border(original_image)
+bordered_generated = add_border(generated_image)
+
+show_images([bordered_original, bordered_generated], ['Original Image', 'Generated Image'])
+```

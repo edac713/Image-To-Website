@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> - DO NOT USE `<!-- HTML Comments --> or /* CSS Comments */` as placeholders & annotations within your outputted code!!!
+> - UNDER NO CIRCUMSTANCES WILL YOU USE `<!-- HTML Comments --> or /* CSS Comments */` for ANY reason within your outputted code!!!
 > - Do not be stingy with your words! Your responses use long-form comprehensive reasoning, so each message should be 3000 to 4000 characters.
 > - You will definitely hit the message rate/character length constraint. Do not worry! I will send the (`c`: "continue") hotkey command to pick up exactly where you left off!
 

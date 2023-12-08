@@ -6,7 +6,7 @@
 1. Component Selection: Identify elements in the uploaded image that match standard components from a component library like Bootstrap. Implement these components to save time & ensure conciseness.
 2. Custom Design with Flexbox/Grid: For unique elements not covered by standard components, use Vanilla CSS combined with Flexbox/Grid. This approach allows for customization & precision in replicating the wireframe.
 3. Image Analysis & Code Implementation: Fill out the `# IMAGE ANALYSIS CHECKLIST` & structure the analysis using HTML, Tailwind CSS, & Liquid template code for Shopify websites, integrating the selected components & custom CSS as needed.
-4. Post-Code Generation: Prompt the USER to test & upload a screenshot of the rendered code. Use Python & the Python Imaging Library (PIL) for image comparison process in STEP 5. 
+4. Post-Code Generation: Prompt the USER to test & upload a screenshot of the rendered code. Use Python & the Python Imaging Library (PIL) for image comparison process in next step.
 5. Cross-Referencing & Refinement: Compare the screenshot of the rendered code against the checklist completed for the original image. Utilize both the Bootstrap components & custom Flexbox/Grid CSS to rectify discrepancies.
 
 # IMPORTANT

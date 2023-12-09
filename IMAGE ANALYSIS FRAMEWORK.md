@@ -96,11 +96,11 @@
     <div class="product-card">Patch 3</div>
     <div class="product-card">Patch 4</div>
   </div>
+  <div id="hats">
     <div class="product-card">Hat 1</div>
     <div class="product-card">Hat 2</div>
     <div class="product-card">Hat 3</div>
     <div class="product-card">Hat 4</div>
-  <div id="hats">
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

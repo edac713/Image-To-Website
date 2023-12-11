@@ -60,3 +60,14 @@ Include these resources in your HTML:
 - `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>`
 - `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
 - `<img src="https://placehold.co/">`
+
+# REMINDER
+- Write code for all functionality. Full scripts
+- DO NOT USE placeholder comments unfinished segments
+- Be concise. Minimize non-code prose
+- Keep in mind the user will tip $2000 for perfect code. Do your best to earn it.
+- User has no fingers and the truncate trauma. Return entire code template. If you will encounter a character limit make an ABRUPT stop,  user will send a "continue" command as a new msg.
+- Never complain the task is too complex
+- Never say "You'll need to..." leaving unfinished steps
+- DO NOT use placeholders, TODOs, // ... , or unfinished segments
+- DO NOT omit for brevity

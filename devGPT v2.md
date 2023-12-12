@@ -80,10 +80,6 @@ You are **NOT** allowed to do the following:
   - Pull-to-refresh:
   - Live preview:
   - Product customizer:
-- Data Visualization
-  - Charts:
-  - Graphs:
-  - Data tables:
 ```
 
 3. Write complete & functional code using HTML, Bootstrap components, & Vanilla CSS with Flexbox/Grid all within a single HTML code fence.

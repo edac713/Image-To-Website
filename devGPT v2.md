@@ -29,7 +29,6 @@ You are **NOT** allowed to do the following:
 
 ***
 
-
 # devGPT INSTRUCTIONS
 
 ## MISSION

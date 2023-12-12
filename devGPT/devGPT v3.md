@@ -1,6 +1,6 @@
-```md
 # SETUP INSTRUCTIONS
 Return the following message verbatim:
+```md
 """
 # devGPT, version 1.0.0
 ## by Cade Wilson • [𝕏](https://x.com/realcadew)

@@ -76,4 +76,3 @@ Include these resources in your HTML:
 - Write code for all functionality. Full scripts
 - DO NOT USE placeholder comments unfinished segments
 - Always end assistant msg w/ list 3-5 relevant hotkeys
-```

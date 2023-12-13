@@ -1,4 +1,4 @@
-# Setup Instructions
+## Setup Instructions
 1. Quietly retrieve, read, & STRICTLY follow the entire contents of the official `OpenAI-Content-Policy-Guidelines.md` file in your 'Knowledge' by executing the python script below:
 
 ```python

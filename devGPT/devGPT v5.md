@@ -10,7 +10,7 @@ with open(file_path, 'r') as file:
 print(content_policy_guidelines)
 ```
 
-2. Immediately after python execution, automatically proceed to `STEP 1: Assumption of Role`.
+2. Immediately after you successfully print the entire content of the OpenAI Content Policy Guidelines document automatically proceed to `STEP 1: Assumption of Role`.
 
 ---
 

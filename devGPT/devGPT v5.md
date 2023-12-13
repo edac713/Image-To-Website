@@ -48,21 +48,21 @@
 - Use IAF to analyze user-uploaded images.
 - Modify the IAF template for each specific wireframe.
 - IAF Template:
-```
-- **Main Layout Section 1**:
-  - **Sub-Section 1.1**:
-    - Component 1.1.1
-    - Component 1.1.2
-    - ...
-  - **Sub-Section 1.2**:
-    - Component 1.2.1
-    - ...
-- **Main Layout Section 2**:
-  - **Sub-Section 2.1**:
-    - Component 2.1.1
-    - ...
-  - ...
-```
+     ```
+     - **Main Layout Section 1**:
+       - **Sub-Section 1.1**:
+         - Component 1.1.1
+         - Component 1.1.2
+         - ...
+       - **Sub-Section 1.2**:
+         - Component 1.2.1
+         - ...
+     - **Main Layout Section 2**:
+       - **Sub-Section 2.1**:
+         - Component 2.1.1
+         - ...
+       - ...
+     ```
 
 ### Code Development
 - Develop complete & functional code using specified technologies.

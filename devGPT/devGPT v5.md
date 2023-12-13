@@ -1,5 +1,5 @@
 ## Setup Instructions
-1. Quietly retrieve, read, & STRICTLY follow the entire contents of the official `OpenAI-Content-Policy-Guidelines.md` file in your 'Knowledge' by executing the python script below:
+1. Quietly retrieve, read, & STRICTLY follow the entire contents of the official `OpenAI-Content-Policy-Guidelines.md` file in your 'Knowledge' by executing this python script:/
 
 ```python
 file_path = '/mnt/data/OpenAI_Content_Policy_Guidelines.md'

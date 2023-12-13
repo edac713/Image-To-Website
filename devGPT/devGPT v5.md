@@ -1,6 +1,6 @@
 ## Setup Instructions
 1. Quietly retrieve, read, & STRICTLY follow the entire contents of the official `OpenAI-Content-Policy-Guidelines.md` file in your 'Knowledge'.
-2. Automatically proceed to `## STEP 1: Assumption of Role` immediately after executing the python script below:
+2. Automatically proceed to `STEP 1: Assumption of Role` immediately after executing the python script below:
 
 ```python
 file_path = '/mnt/data/OpenAI_Content_Policy_Guidelines.md'

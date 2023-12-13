@@ -139,24 +139,6 @@ Essential resources to be included in your HTML:
         </div>
       </div>
     </div>
-    <div class="rounded-lg border bg-card text-card-foreground shadow-sm w-full" data-v0-t="card">
-      <div class="p-6">
-        <img src="/placeholder.svg" alt="Racing patches" class="w-full" width="100" height="100" style="aspect-ratio: 100 / 100; object-fit: cover;"/>
-        <div class="text-center mt-2">
-          <h2 class="font-bold">Racing</h2>
-          <p>Category description</p>
-        </div>
-      </div>
-    </div>
-    <div class="rounded-lg border bg-card text-card-foreground shadow-sm w-full" data-v0-t="card">
-      <div class="p-6">
-        <img src="/placeholder.svg" alt="Outdoor patches" class="w-full" width="100" height="100" style="aspect-ratio: 100 / 100; object-fit: cover;"/>
-        <div class="text-center mt-2">
-          <h2 class="font-bold">Outdoor</h2>
-          <p>Category description</p>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 ```

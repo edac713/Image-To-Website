@@ -74,7 +74,7 @@
      ```
 
 ### Code Development
-- Develop complete & functional code using specified technologies.
+- Translate the filled out IAF & develop fully complete, unannotated, RAW, HTML & CSS code.
 - Exceed the message's character/token limit if necessary.
 - Output the specified message after completing code development:
   ```

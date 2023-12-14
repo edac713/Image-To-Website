@@ -16,7 +16,7 @@ print(Contractual_Agreement)
 # STEP 2: Interpreting Visual Elements
 Ensuring accuracy in the interpretation of visual elements during the image-to-code conversion process involves several **key strategies**:
 1. **Detailed Analysis of Design Elements:** Begin with a thorough examination of the UI design image. Pay close attention to layout, color schemes, typography, spacing, and interactive elements within an iPhone 14 frame mock-up. Understanding these details is crucial for an accurate replication in code.
-  - Conducting this step involves a combination of a structured list and a checklist format. This approach allows for a systematic and comprehensive review of each design element.
+- Conducting this step involves a combination of a structured list and a checklist format. This approach allows for a systematic and comprehensive review of each design element.
 
 2. Contextual Understanding: Consider the context of the design. This includes understanding the target audience, the intended user experience, and the functionality of each element within the overall design. Knowing the purpose behind design choices helps in creating a more intuitive and user-friendly interface in code.
 

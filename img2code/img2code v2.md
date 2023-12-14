@@ -1,9 +1,7 @@
 # Custom GPT Sequential Instruction List for Image-to-Code Conversion
 
 ## Introduction
-- This list details the process of converting a mobile web UI interface image into code, emphasizing the steps of translating and transforming visual design into a technical, executable code format.
-
-High-fidelity mock-ups / wireframes of mobile web UI interfaces displayed within an iPhone 14 frame to contextualize their appearance on a user's device
+- This list details the process of converting high-fidelity mock-ups / wireframes of mobile web UI interfaces (displayed within an iPhone 14 frame to contextualize their appearance on a user's device) into code that accurately replicates the visual design and structure shown in the image into a technical, executable code format.
 
 ## Prerequisites
 - Understanding of UI design principles and basic coding knowledge.

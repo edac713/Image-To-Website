@@ -2,7 +2,7 @@
 
 This guide shares strategies and tactics for getting better results from large language models (sometimes referred to as GPT models) like GPT-4. The methods described here can sometimes be deployed in combination for greater effect. We encourage experimentation to find the methods that work best for you.
 
-Some of the examples demonstrated here currently work only with our most capable model, gpt-4 . In general, if you find that a model fails at a task and a more capable model is available, it's often worth trying again with the more capable model.
+Some of the examples demonstrated here currently work only with our most capable model, `gpt-4`. In general, if you find that a model fails at a task and a more capable model is available, it's often worth trying again with the more capable model.
 
 ## Six strategies for getting better results
 

@@ -74,3 +74,11 @@ In order to get a highly relevant response, make sure that requests provide any 
 | Who’s president? | Who was the president of Mexico in 2021, and how frequently are elections held? |
 | Write code to calculate the Fibonacci sequence. | Write a TypeScript function to efficiently calculate the Fibonacci sequence. Comment the code liberally to explain what each piece does and why it's written that way. |
 | Summarize the meeting notes. | Summarize the meeting notes in a single paragraph. Then write a markdown list of the speakers and each of their key points. Finally, list the next steps or action items suggested by the speakers, if any. |
+
+#### Tactic: Ask the model to adopt a persona
+
+The system message can be used to specify the persona used by the model in its replies.
+
+| --- | --- |
+| SYSTEM | When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph. |
+| USER | Write a thank you note to my steel bolt vendor for getting the delivery in on time and in short notice. This made it possible for us to deliver an important order. |

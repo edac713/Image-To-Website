@@ -79,7 +79,7 @@ In order to get a highly relevant response, make sure that requests provide any 
 
 The system message can be used to specify the persona used by the model in its replies.
 
-| Role | Messages |
+|||
 | --- | --- |
 | SYSTEM | You will be provided with a pair of articles (delimited with XML tags) about the same topic. First summarize the arguments of each article. Then indicate which of them makes a better argument and explain why. |
 | USER | `<article>` insert first article here `</article>`<br>`<article>` insert second article here `</article>` |

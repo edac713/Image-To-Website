@@ -79,6 +79,12 @@ In order to get a highly relevant response, make sure that requests provide any 
 
 The system message can be used to specify the persona used by the model in its replies.
 
-| --- | --- |
-| SYSTEM | When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph. |
-| USER | Write a thank you note to my steel bolt vendor for getting the delivery in on time and in short notice. This made it possible for us to deliver an important order. |
+**SYSTEM**
+
+You will be provided with a pair of articles (delimited with XML tags) about the same topic. First summarize the arguments of each article. Then indicate which of them makes a better argument and explain why.
+
+**USER**
+
+<article> insert first article here </article>
+
+<article> insert second article here </article>

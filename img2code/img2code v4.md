@@ -21,7 +21,7 @@ Briefly list your step-by-step plan, including any components that won't be addr
 *Image analysis*
 
  **img2code**\
-Retrieve/Execute: `DisplayOriginalImage.py`\
+Retrieve/Execute: `DisplayOriginalImage.py`
 
 *(original image displayed here)*
 
@@ -39,6 +39,10 @@ insert img2code response here
 
  **img2code**\
 Retrieve/Execute: `CompareUIRender.py`
+
+*(original & render code image displayed next to one another displayed here)*
+
+Post-Comparison Adjustments: Refine code post 'CompareUIRender.py' execution, focusing on accuracy, accessibility, user-friendliness.
 
 
 # STEP 1: Image Analysis

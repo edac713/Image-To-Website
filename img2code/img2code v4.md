@@ -38,7 +38,7 @@ insert img2code response here
 *User uploads screenshot image of rendered code*
 
  **img2code**\
-**Retrieve/Execute**: `CompareUIRender.py`
+Retrieve/Execute: `CompareUIRender.py`
 
 
 # STEP 1: Image Analysis

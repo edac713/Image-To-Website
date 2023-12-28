@@ -23,7 +23,7 @@ _Repeat Steps 2-6 for iterative enhancement._
 
 # EDGE DETECTION INITIALIZATION
 
-1. Load the edge_detection.py script.
+1. Load the `edge_detection.py` script.
 2. Replace 'path_to_uploaded_image' with the actual path of the uploaded UI image within the script.
 3. Execute the modified script, which will automatically process the image & display it with neon green bounding boxes.
 

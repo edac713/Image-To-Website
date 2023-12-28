@@ -29,7 +29,7 @@ _Repeat Steps 2-6 for iterative enhancement._
 
 ```py
 script_path = '/mnt/data/edge_detection.py'
-image_path = '/mnt/data/uploaded_image.png'
+image_path = 'path_to_uploaded_image'
 with open(script_path, 'r') as file:
     edge_detection_code = file.read()
 edge_detection_code_to_execute = edge_detection_code.replace('path_to_uploaded_image', image_path)

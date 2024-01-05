@@ -1,3 +1,4 @@
+```python
 from PIL import Image, ImageDraw, ImageFont, ImageColor
 
 # Re-define the add_overlay function since the execution state was reset
@@ -45,3 +46,4 @@ for overlay in overlays_info:
 
 # Display the final processed UI image with overlays
 original_ui_image.show()
+```

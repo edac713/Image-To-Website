@@ -25,7 +25,7 @@ def add_overlay(image, overlay_info, position_y, font):
     )
     # Annotate the overlay
     text_position = (10, position_y + 10)  # Position the text 10 pixels from the top and left of the overlay
-    draw.text(text_position, overlay_info["annotation"], font=font, fill="black")
+    draw.text(text_position, overlay_info["annotation"], font=font")
 
 # Load or define a font for the annotations
 annotation_font = ImageFont.load_default()

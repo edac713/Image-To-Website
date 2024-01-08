@@ -1,38 +1,74 @@
-from PIL import Image
+import cv2
+import numpy as np
+from matplotlib import pyplot as plt
 
-# Define the paths for the input images
+def enhanced_edge_detection_and_segmentation(image, edge_threshold1, edge_threshold2, min_gap):
+    # Convert to grayscale
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Apply Canny edge detection to pick up finer lines
+    edges = cv2.Canny(gray, edge_threshold1, edge_threshold2)
+
+    # Calculate the horizontal projection of edges
+    h_projection = np.sum(edges, axis=1)
+
+    # Find transitions in the edge projection
+    transitions = np.where(np.diff(h_projection > 0))[0]
+
+    # Determine segment boundaries with the refined edge detection
+    boundaries = []
+    for i in range(0, len(transitions), 2):
+        if i+1 < len(transitions) and transitions[i+1] - transitions[i] > min_gap:
+            boundaries.append((transitions[i], transitions[i+1]))
+    return boundaries
+
+# Load the original image (Update the path accordingly)
 original_ui_image_path = 'path_to_uploaded_image'
-ui_image_overlay_path = '/mnt/data/UI_Image_Overlay.png'
+original_image = cv2.imread(original_ui_image_path)
 
-# Load the images
-original_ui_image = Image.open(original_ui_image_path)
-ui_image_overlay = Image.open(ui_image_overlay_path)
+# Edge detection thresholds and minimum gap
+edge_threshold1 = 50  # Lower threshold for finer edge detection
+edge_threshold2 = 150  # Upper threshold
+smaller_min_gap = 5    # Reduced gap to detect finer details
 
-# Resize the "Original UI Image" to (1349 x 2668 px)
-original_ui_image_resized = original_ui_image.resize((1349, 2668))
+# Apply the function to find enhanced segment boundaries
+enhanced_boundaries = enhanced_edge_detection_and_segmentation(original_image, edge_threshold1, edge_threshold2, smaller_min_gap)
 
-# Resize the "UI Image Overlay" to (2000 x 3000 px)
-ui_image_overlay_resized = ui_image_overlay.resize((2000, 3000))
+# Visualize the enhanced segment boundaries on the image
+enhanced_segmented_image = original_image.copy()
+for start, end in enhanced_boundaries:
+    cv2.line(enhanced_segmented_image, (0, start), (enhanced_segmented_image.shape[1], start), (0, 255, 0), 2)
+    cv2.line(enhanced_segmented_image, (0, end), (enhanced_segmented_image.shape[1], end), (0, 255, 0), 2)
 
-# Create a blank background with dimensions (2000 x 3000 px)
-background = Image.new('RGB', (2000, 3000), color = (255, 255, 255))
+# Save and show the image with enhanced segments
+enhanced_segmented_image_path = 'path_for_saving_enhanced_segmented_image'
+cv2.imwrite(enhanced_segmented_image_path, enhanced_segmented_image)
+plt.imshow(cv2.cvtColor(enhanced_segmented_image, cv2.COLOR_BGR2RGB))
+plt.title('Enhanced Segmented Wireframe')
+plt.axis('off')
+plt.show()
 
-# Overlay the "Original UI Image" centered horizontally and vertically on the background
-bg_w, bg_h = background.size
-img_w, img_h = original_ui_image_resized.size
-offset = ((bg_w - img_w) // 2, (bg_h - img_h) // 2)
-background.paste(original_ui_image_resized, offset)
+# Crop the segments with padding and save them
+padding = 10  # Pixels to add as padding around each segment
+enhanced_cropped_segments_paths = []
 
-# Overlay the "UI Image Overlay" on top of the background, centered as well
-# The "UI Image Overlay" is the same size as the background so it will be centered by default
-background.paste(ui_image_overlay_resized, (0, 0), ui_image_overlay_resized)
+plt.figure(figsize=(6, 9))  # Aspect ratio 2:3 for consistent display
+for i, (start, end) in enumerate(enhanced_boundaries):
+    padded_start = max(start - padding, 0)
+    padded_end = min(end + padding, original_image.shape[0])
+    segment = original_image[padded_start:padded_end, :]
+    segment_path = 'path_for_saving_padded_segment_' + str(i)
+    cv2.imwrite(segment_path, segment)
+    enhanced_cropped_segments_paths.append(segment_path)
 
-# Save the overlayed images as a single image file called "Processed UI Image"
-processed_ui_image_path = '/mnt/data/Processed UI Image.png'
-background.save(processed_ui_image_path)
+    # Display each segment
+    plt.subplot(len(enhanced_boundaries), 1, i+1)
+    plt.imshow(cv2.cvtColor(segment, cv2.COLOR_BGR2RGB))
+    plt.title(f'Enhanced Padded Segment {i}')
+    plt.axis('off')
 
-# Display the processed image
-background.show()
+plt.tight_layout()
+plt.show()
 
-# Output the path to the saved image (e.g., for download links)
-print(processed_ui_image_path)
+# Output the paths of the saved enhanced segment images
+enhanced_cropped_segments_paths

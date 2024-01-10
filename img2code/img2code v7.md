@@ -32,18 +32,18 @@ exec(ui_grid_segmenter_code_to_execute)
 ### Segment Display
 Utilize a Python script to display each segment (e.g., `segment_0.png`), starting with Segment 0.
 
-### Automated Segment Documentation
-Systematically document each segment using the UI Segment Documentation Template. Repeat for all segments.
-
-## STEP 4: CODE SNIPPETS INTEGRATION
-Assemble the individual segment code snippets into a unified & coherent codebase.
-
-### EXAMPLE: Displaying a Segment
+#### EXAMPLE: Displaying a Segment
 ```python
 # Python script to display a segment
 segment_0_image = Image.open(segment_0_path)
 display.display(segment_0_image)
 ```
+
+### Automated Segment Documentation
+Systematically document each segment using the UI Segment Documentation Template. Repeat for all segments.
+
+## STEP 4: CODE SNIPPETS INTEGRATION
+Assemble the individual segment code snippets into a unified & coherent codebase.
 
 ## STEP 5: SEQUENTIAL SEGMENT DOCUMENTATION
 

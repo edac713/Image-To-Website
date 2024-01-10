@@ -68,42 +68,39 @@ You will initiate the UI elements & components identification by using the Code 
 
 Utilize the template enclosed in the """ delimeters to dynamically document the UI elements within each segment of the UI wireframe. Adjust the details according to the identified element type:
 
-"""
+```YAML
 
-# SEGMENT X: [Segment Name]
-
-- **DESCRIPTION**: [Brief Description Based on UI Elements]
-- **UI ELEMENT(S)**:
-  - **ELEMENT 1: [Element Name]**
-    - **TYPE**: [Element Type: Text, Icon, Image, Button, Input, etc.]
-    - **DETAILS**:
-      - If text, **CONTENT**: [The actual text content]
-      - If icon, **FONT AWESOME CLASS**: [Corresponding Font Awesome class]
-      - If image, **PLACEHOLDER LINK**: [Placeholder image link with specified dimensions]
-      - If button, **ACTION & LABEL**: [Type of action & label text]
-      - If input field, **FIELD TYPE & PLACEHOLDER**: [Field type & placeholder text]
-      - If navigation bar, **ITEMS & ALIGNMENT**: [Items & their alignment]
-      - If checkbox/radio, **STATE & GROUPING**: [Checked state & grouping]
-      - If slider/control, **RANGE & DEFAULT VALUE**: [Range & default value/position]
-      - If modal/pop-up, **TRIGGER & DISMISS**: [Trigger conditions & dismiss mechanisms]
-      - If list, **ITEMS & ORDERING**: [List items & ordering style]
-      - If tabs, **LABELS & STATES**: [Tab labels & active/inactive states]
-    - **POSITION**: [Element's position in relation to the content area]
-    - **NESTING LEVEL**: [Primary, Secondary, Tertiary, etc.]
-    - **TAILWIND CLASSES**: [Tailwind CSS classes for styling]
-  - ... [Continue for subsequent elements]
-
-- **CODE SNIPPET X**:
-
-```html
-<!-- Tailwind CSS/HTML representation of the UI elements in the segment -->
-<div class="...">
-  <!-- Conditional rendering based on element type -->
-  <... class="...">...</...>
-</div>
+Segment_X:
+  Segment_Name: "[Segment Name]"
+  Description: "[Brief Description Based on UI Elements]"
+  UI_Elements:
+    - Element_1:
+        Name: "[Element Name]"
+        Type: "[Element Type: Text, Icon, Image, Button, Input, etc.]"
+        Details:
+          Content: "[If text, the actual text content]"
+          FontAwesomeClass: "[If icon, corresponding Font Awesome class]"
+          PlaceholderLink: "[If image, placeholder image link with specified dimensions]"
+          ActionLabel: "[If button, type of action & label text]"
+          FieldTypePlaceholder: "[If input field, field type & placeholder text]"
+          ItemsAlignment: "[If navigation bar, items & their alignment]"
+          StateGrouping: "[If checkbox/radio, checked state & grouping]"
+          RangeDefaultValue: "[If slider/control, range & default value/position]"
+          TriggerDismiss: "[If modal/pop-up, trigger conditions & dismiss mechanisms]"
+          ItemsOrdering: "[If list, list items & ordering style]"
+          LabelsStates: "[If tabs, tab labels & active/inactive states]"
+        Position: "[Element's position in relation to the content area]"
+        NestingLevel: "[Primary, Secondary, Tertiary, etc.]"
+        TailwindClasses: "[Tailwind CSS classes for styling]"
+    - Element_2: 
+        ...
+  Code_Snippet_X: |
+    <!-- Tailwind CSS/HTML representation of the UI elements in the segment -->
+    <div class="...">
+      <!-- Conditional rendering based on element type -->
+      <... class="...">...</...>
+    </div>
 ```
-
-"""
 
 ## CODE GENERATION
 

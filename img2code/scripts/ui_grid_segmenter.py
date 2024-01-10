@@ -55,7 +55,7 @@ for i, (start, end) in enumerate(merged_boundaries):
     aspect_ratio = segment_width / segment_height if segment_height > 0 else 1
     plt.figure(figsize=(6 * aspect_ratio, 6))
     plt.imshow(cv2.cvtColor(segment, cv2.COLOR_BGR2RGB))
-    plt.title('off')
+    plt.title(f'Segment {i}')
     plt.axis('off')
     plt.show()
     segment_path = f'/mnt/data/segment_{i}.png'

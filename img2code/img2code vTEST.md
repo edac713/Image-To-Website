@@ -111,6 +111,47 @@ Img2code applies meticulous focus to each UI section as follows:
 ... (continue in a similar format for all UI components)
 ```
 
+
+
+
+
+# UI SEGMENT DOCUMENTATION TEMPLATE
+
+For each segment of the UI wireframe, this template is designed to be both structured and dynamic, allowing for detailed documentation of all UI elements within any given wireframe.
+
+## SEGMENT 0: [Segment Name]
+
+- **DESCRIPTION**: [Brief Description Based on UI Elements]
+- **UI ELEMENT(S)**:
+  - **ELEMENT 1: [Element Name]**
+    - **TYPE**: [Icon, Placeholder Image, Component, etc.]
+    - **POSITION**: [Elements position in relation to content area]
+  - **ELEMENT 2: [...]**
+    - **TYPE**: [...]
+    - **POSITION**: [...]
+- **CODE SNIPPET 0**:
+```html
+<!-- Tailwind CSS/HTML representation of the UI elements in the segment -->
+`<...>...</...>`
+```
+
+## SEGMENT 1: [Segment Name]
+
+- **DESCRIPTION**: [...]
+- **UI ELEMENT(S)**:
+  - **ELEMENT 1: [...]**
+    - **TYPE**: [...]
+    - **POSITION**: [...]
+  - ...
+- **CODE SNIPPET 1**:
+```html
+`<...>...</...>`
+```
+
+... (Continue for subsequent segments, replacing placeholders with actual content corresponding to each segment of the UI wireframe.) ...
+
+
+
 _The scrupulous organization of this breakdown will directly influence the fidelity of the subsequent code generation, ensuring that no component is overlooked._
 
 ## [COMPONENT-EXAMINATION]

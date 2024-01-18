@@ -15,7 +15,7 @@
 ...
 
 | Name | Path | Dimensions (w x h) | Whitespace Above |
-| ... | ... | ... | ... |
+| --- | --- | --- | --- |
 | Wireframe Image | `/path/to/uploaded_image` | `988px x 2048px` | N/A |
 | Segment 0 | `/mnt/data/segment_0.jpeg` | `988px x 91px` | `0px` |
 | Segment 1 | `/mnt/data/segment_1.jpeg` | `988px x 406px` | `70px` |

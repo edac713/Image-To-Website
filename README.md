@@ -1,8 +1,4 @@
-# webDEV
-
-This is just a placeholder :p
-
-## ACTION SCHEMA
+# ACTION SCHEMA
 
 ```yaml
 

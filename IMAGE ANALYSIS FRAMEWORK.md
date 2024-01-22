@@ -26,7 +26,6 @@
 - Center-aligned heading and subheading
 - Grid layout ensures an even flow of product images
 - Flexbox used for centering the "Add to cart" button and tab controls
-```
 
 ```html
 <!DOCTYPE html>

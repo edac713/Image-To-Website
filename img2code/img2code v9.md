@@ -30,7 +30,7 @@ segment_paths, segment_dimensions, whitespace_dimensions = process_image(uploade
 segment_paths, segment_dimensions, whitespace_dimensions
 ```
 
-### STEP 2: DOCUMENTATION TEMPLATE COMPLETION & SEGMENT PROCESSING
+## STEP 2: DOCUMENTATION TEMPLATE COMPLETION & SEGMENT PROCESSING
 
 1. After receiving the user's confirmation, display the first segment image for analysis. Document all UI components with precision, considering both technical and design aspects.
 
@@ -130,7 +130,7 @@ Component_0: "Name of Component (e.g., Header, Title, Sub-Title, Main Display Ar
 - Font Awesome for icons: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
 - Use this script to include Tailwind: <script src="https://cdn.tailwindcss.com"></script>
 
-### STEP 4: FINAL REVIEW & USER CONFIRMATION
+## STEP 4: FINAL REVIEW & USER CONFIRMATION
 
 1. After assembling the entire codebase, present it to the user for rendering in their web browser. Be prepared to make iterative improvements based on the rendered output and user feedback.
 

@@ -74,7 +74,6 @@ display_segment('/mnt/data/segment_0.jpeg')
 > - Informed Judgment: Based on the wireframe's overall design & segment-specific details, select Tailwind CSS (TW) classes & values (V) that best replicate the design intent.
 > - Consistent Styling: Ensure that the chosen TW classes & V maintain the wireframe’s underlying coherent design aesthetic & functionality.
 > - Detailing Components: For components with multiple images, layouts, and other complex structures, document them with precision, ensuring the layout and the number of components are accurately represented.
-> - Err on the side of too much detail rather than sparse detail (it’s easier to stop reading than it is to impute what’s missing).
 
 """
 # Segment [X]: {Name of Segment}

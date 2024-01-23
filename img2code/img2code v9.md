@@ -35,7 +35,7 @@ segment_paths, segment_dimensions, wireframe_image_size
 **Size**: Exact Width x Height in pixels
 **Color Scheme**: {Description of the color palette used & their respective HEX color codes}
 
-#### Description:
+### Description:
 {Expository, in-depth, comprehensive, analytical, detailed examination of the wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (7-10 sentence) description.}
 
 ---
@@ -75,19 +75,23 @@ display_segment('/mnt/data/segment_0.jpeg')
 > [!IMPORTANT]: Apply Tailwind CSS classes & values judiciously:
 > - Informed Judgment: Based on the wireframe's overall design & segment-specific details, select Tailwind CSS (TW) classes & values (V) that best replicate the design intent.
 > - Consistent Styling: Ensure that the chosen TW classes & V maintain the wireframe’s underlying coherent design aesthetic & functionality.
-> - Detailing Components: For components with multiple images, layouts, and other complex structures, document them with precision, ensuring the layout and the number of components are accurately represented.
+> - Detailing Components: For components with multiple images, layouts, & other complex structures, document them with precision, ensuring the layout & the number of components are accurately represented.
 
 """
 # Segment [X]: {Name of Segment}
 **Path**: '/mnt/data/segment_x.jpeg'
 **Size**: Width x Height in pixels
-**Description**: {Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (8-12 sentence) description.}
 
-## UI Components & Elements
+### Description:
+{Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (8-12 sentence) description.}
+
+---
+
+# UI Components & Elements
 
 > KEY: V = Value, TW = TailwindCSS
 
-### Component 0: {Component Type}
+## Component 0: {Component Type}
 ```yaml
 Tag: HTML Tag
 Description: {Detailed purpose, functionality, & UI role}
@@ -104,9 +108,11 @@ Properties:
   - Responsiveness: [max-width: {V, %}, min-width: {V, %}, max-height: {V, %}, min-height: {V, %}]
   - Other Styling: [visibility: {visible, hidden}, opacity: {V}, z-index: {V}]
 
-### Component 1: {Component Type}
+## Component 1: {Component Type}
 - ...
 ```
+
+---
 
 # Code Snippet for Segment [X]
 ```html

@@ -34,8 +34,10 @@ segment_paths, segment_dimensions, wireframe_image_size
 # {Title of the Application/Page}
 **Path**: '/mnt/data/wireframe_image.jpeg'
 **Size**: Exact Width x Height in pixels
-**Description**: {Expository, in-depth, comprehensive, analytical, detailed examination of the wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (7-10 sentence) description.}
 **Color Scheme**: {Description of the color palette used & their respective HEX color codes}
+
+## Description:
+{Expository, in-depth, comprehensive, analytical, detailed examination of the wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (7-10 sentence) description.}
 
 ---
 
@@ -83,7 +85,9 @@ display_segment('/mnt/data/segment_0.jpeg')
 # Segment [X]: {Name of Segment}
 **Path**: '/mnt/data/segment_x.jpeg'
 **Size**: Width x Height in pixels
-**Description**: {Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (8-12 sentence) description.}
+
+## Description:
+{Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (8-12 sentence) description.}
 
 ## UI Components & Elements
 

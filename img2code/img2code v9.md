@@ -135,6 +135,7 @@ Properties:
 
 2. Emphasize precision & adaptability in this final step, ensuring the end result aligns closely with the original wireframe.
 
-3. Remember to include the external resources:
-- Font Awesome: `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css`
-- Tailwind: `https://cdn.tailwindcss.com`
+3. Include external resources:
+- FontAwesomeIcons: `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
+- TailwindCSS: `<script src="https://cdn.tailwindcss.com"></script>`
+- Alpine.js: `<script src="//unpkg.com/alpinejs" defer></script>`

@@ -145,88 +145,96 @@ Properties:
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hat Builder Application</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-<script src="//unpkg.com/alpinejs" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hat Builder Application</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <script src="//unpkg.com/alpinejs" defer></script>
 </head>
+
 <body>
- 
-<!-- Header section -->
-<div class="flex items-center justify-between pt-2 pl-5 pr-5">
-<button class="text-gray-800 text-2xl">
-<i class="fa-solid fa-chevron-left"></i>
-</button>
-<div>
-<h1 class="text-3xl font-bold text-gray-800">Hat Builder</h1>
-<p class="text-sm text-gray-600">pick a patch & hat</p>
-</div>
-<button class="text-gray-800 text-xl">
-<i class="fa-solid fa-question"></i>
-</button>
-</div>
 
-<!-- Featured product image -->
-<div class="flex justify-center mt-4 mr-2 mb-4 ml-2 p-4">
-<img src="https://placehold.co/200" class="object-cover rounded-lg">
-</div>
+  <!-- Header section -->
+  <div class="flex items-center justify-between pt-2 pl-5 pr-5">
+    <button class="text-gray-800 text-2xl">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div>
+      <h1 class="text-3xl font-bold text-gray-800">Hat Builder</h1>
+      <p class="text-sm text-gray-600">pick a patch & hat</p>
+    </div>
+    <button class="text-gray-800 text-xl">
+      <i class="fa-solid fa-question"></i>
+    </button>
+  </div>
 
-<!-- Add to cart section -->
-<div class="flex items-center justify-center mt-4 mb-4">
-<button class="flex items-center justify-center w-12 h-12 ml-2 mr-2 p-2 text-gray-800 text-3xl">
-<i class="fa-solid fa-arrow-up-from-bracket"></i>
-</button>
-<button class="px-6 py-2 bg-black text-white text-xl font-bold rounded-full">Add to cart</button>
-</div>
+  <!-- Featured product image -->
+  <div class="flex justify-center mt-4 mr-2 mb-4 ml-2 p-4">
+    <img src="https://placehold.co/200" class="object-cover rounded-lg">
+  </div>
 
-<!-- Tab selection -->
-<div class="flex justify-center space-x-4 pb-3">
-<button class="text-lg font-semibold text-black">Patches</button>
-<button class="text-lg font-semibold text-black border-b-2 border-black">Hats</button>
-</div>
+  <!-- Add to cart section -->
+  <div class="flex items-center justify-center mt-4 mb-4">
+    <button class="flex items-center justify-center w-12 h-12 ml-2 mr-2 p-2 text-gray-800 text-3xl">
+      <i class="fa-solid fa-arrow-up-from-bracket"></i>
+    </button>
+    <button class="px-6 py-2 bg-black text-white text-xl font-bold rounded-full">Add to cart</button>
+  </div>
 
-<!-- Search section -->
-<div class="flex-stretch items-center justify-center pl-3 pr-3 pb-4">
- <div class="flex items-center p-2 bg-white border-2 border-gray-300 rounded-full shadow-sm">
-  <i class="fas fa-search text-lg text-gray-600 pl-3"></i>
-  <input class="w-full bg-transparent pl-4 pr-1 text-md text-gray-700" type="search" placeholder="Search">
- </div>
- <div class="flex items-center">
- <button class="text-lg text-gray-600 pl-2 pr-2">
-  <i class="fas fa-sliders-h"></i>
- </button>
- </div>
-</div>
+  <!-- Tab selection -->
+  <div class="flex justify-center space-x-4 pb-3">
+    <button class="text-lg font-semibold text-black">Patches</button>
+    <button class="text-lg font-semibold text-black border-b-2 border-black">Hats</button>
+  </div>
 
-<!-- Product cards section -->
-<div x-data="{ categories: [{name: 'All Patches', patches: 518, colors: ['#000000', '#000000', '#000000']},{name: 'NASCAR', patches: 84, colors: ['#000000', '#000000', '#000000']}, {name: 'Racing', patches: 139, colors: ['#000000', '#000000', '#000000']}, {name: 'Outdoor', patches: 25, colors: ['#000000', '#000000', '#000000']}] }" class="flex flex-wrap justify-center gap-2">
+  <!-- Search section -->
+  <div class="flex-stretch items-center justify-center pl-3 pr-3 pb-4">
+    <div class="flex items-center p-2 bg-white border-2 border-gray-300 rounded-full shadow-sm">
+      <i class="fas fa-search text-lg text-gray-600 pl-3"></i>
+      <input class="w-full bg-transparent pl-4 pr-1 text-md text-gray-700" type="search" placeholder="Search">
+    </div>
+    <div class="flex items-center">
+      <button class="text-lg text-gray-600 pl-2 pr-2">
+        <i class="fas fa-sliders-h"></i>
+      </button>
+    </div>
+  </div>
 
-  <template x-for="category in categories" :key="category.name">
-    <div class="flex flex-col items-center">
-      <div class="rounded-card" style="width: 12rem; overflow: hidden; background-color: transparent; border-radius: 1.5rem;">
-        <div class="flex" style="gap: 0.075rem;">
-          <!-- Large Image with unique color -->
-          <div class="flex-grow" :style="'flex-basis: 0; flex-grow: 2; aspect-ratio: 1 / 1; background-color: ' + category.colors[0]"></div>
-          <!-- Small Images Container -->
-          <div class="flex flex-col flex-grow" style="flex-basis: 0; flex-grow: 1; gap: 0.075rem;">
-            <!-- Top Small Image with unique color -->
-            <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[1]"></div>
-            <!-- Bottom Small Image with unique color -->
-            <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[2]"></div>
+  <!-- Product cards section -->
+  <div
+    x-data="{ categories: [{name: 'All Patches', patches: 518, colors: ['#000000', '#000000', '#000000']},{name: 'NASCAR', patches: 84, colors: ['#000000', '#000000', '#000000']}, {name: 'Racing', patches: 139, colors: ['#000000', '#000000', '#000000']}, {name: 'Outdoor', patches: 25, colors: ['#000000', '#000000', '#000000']}] }"
+    class="flex flex-wrap justify-center gap-2">
+
+    <template x-for="category in categories" :key="category.name">
+      <div class="flex flex-col items-center">
+        <div class="rounded-card"
+          style="width: 12rem; overflow: hidden; background-color: transparent; border-radius: 1.5rem;">
+          <div class="flex" style="gap: 0.075rem;">
+            <!-- Large Image with unique color -->
+            <div class="flex-grow"
+              :style="'flex-basis: 0; flex-grow: 2; aspect-ratio: 1 / 1; background-color: ' + category.colors[0]">
+            </div>
+            <!-- Small Images Container -->
+            <div class="flex flex-col flex-grow" style="flex-basis: 0; flex-grow: 1; gap: 0.075rem;">
+              <!-- Top Small Image with unique color -->
+              <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[1]"></div>
+              <!-- Bottom Small Image with unique color -->
+              <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[2]"></div>
+            </div>
           </div>
         </div>
+        <!-- Text Container -->
+        <div class="text-left mt-4" style="width: 12rem; padding-left: 0.25rem;">
+          <h2 class="text-2xl font-bold" x-text="category.name"></h2>
+          <p class="text-gray-700" x-text="category.patches + ' Patches'"></p>
+        </div>
       </div>
-      <!-- Text Container -->
-      <div class="text-left mt-4" style="width: 12rem; padding-left: 0.25rem;">
-        <h2 class="text-2xl font-bold" x-text="category.name"></h2>
-        <p class="text-gray-700" x-text="category.patches + ' Patches'"></p>
-      </div>
-    </div>
-  </template>
-</div>
+    </template>
+  </div>
 </body>
+
 </html>
 ```

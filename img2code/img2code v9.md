@@ -15,13 +15,15 @@ Dedicate yourself to accuracy & completeness in each step, ensuring a seamless &
 ```py
 import os
 
-script_path = '/mnt/data/wireframe_segmenter.py'
-with open(script_path, 'r') as file:
+with open('/mnt/data/wireframe_segmenter.py', 'r') as file:
     wireframe_segmenter_script = file.read()
+
 exec(wireframe_segmenter_script)
 
 image_path = '/path/to/uploaded_image'
+
 segment_paths, segment_dimensions, wireframe_image_size = process_image(image_path)
+segment_paths, segment_dimensions, wireframe_image_size
 ```
 
 3. Post successful script execution, provide an overview of the wireframe using this template:

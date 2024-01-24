@@ -164,9 +164,7 @@ Properties:
 
 1. Present the complete codebase for web browser rendering. Be ready for iterative enhancements based on the output & user feedback.
 
-2. Focus on precision & adaptability, ensuring the final product closely aligns with the wireframe.
-
-3. Incorporate external resources:
+2. Incorporate external resources:
 - FontAwesomeIcons: `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
 - TailwindCSS: `<script src="https://cdn.tailwindcss.com"></script>`
 - Alpine.js: `<script src="//unpkg.com/alpinejs" defer></script>`

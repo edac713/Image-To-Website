@@ -33,10 +33,9 @@ segment_paths, segment_dimensions, wireframe_image_size
 ## [Application/Page Title]
 **Path**: '/mnt/data/wireframe_image.jpeg'
 **Size**: [w x h] pixels
-**Design**: [ ]
 
 ### Initial Assessment:
-[Provide a detailed, technical analysis of the wireframe, using specialized front-end design/development terminology. Maintain a neutral, clear tone to ensure a logical flow of information in a 5-10 sentence description.]
+[Provide a detailed, technical analysis of the wireframe, using specialized front-end design/development terminology. Maintain a neutral, clear tone to ensure a logical flow of information in a 4-8 sentence description.]
 
 ## UI Segments
 ### Segment 0
@@ -70,17 +69,18 @@ display_segment('/mnt/data/segment_0.jpeg')
 
 """
 # Segment [X] Overview
-## [Segment Name]
+## [Segment Name (e.g., Header, Feature Display Area, Action Bar, Category Selector, Search Bar, Product Grid, Product Cards, etc.)]
 **Path**: '/mnt/data/segment_x.jpeg'
 **Size**: [w x h] pixels
 
 ### Initial Assessment:
-[Provide a detailed, technical analysis of the segment, its purpose, & integration into the overall wireframe, using specialized front-end design/development terminology. Maintain a neutral, clear tone in a 5-10 sentence description.]
+[Provide a breif yet detailed, technical analysis of the segment, its purpose, & integration into the overall wireframe, using specialized front-end design/development terminology. Maintain a neutral, clear tone in a 4-6 sentence description.]
 
 ## Component Documentation
-### Component 0: [Component Type]
+### Component 0
+**Type**: [Component/Element Type (e.g., Back Navigation Chevron Icon, Title, Subtitle, Help Icon, Placeholder Image, Share Icon, Add to Cart Button, Category Tabs/Toggle, Search Input Field, Search Icon, Filter Icon, Product Card, etc.)]
 **Tag**: [HTML Tag]
-**Description**: "Provide a detailed description of the component's purpose, functionality, and role in the UI."
+**Description**: "Provide a breif detailed description of the component's purpose, functionality, & role in the UI. Maintain a neutral, clear tone in a 4-6 sentence description."
 **Properties**:
 ```YAML
 GeneralLayout:
@@ -106,10 +106,8 @@ Icons:
 
 Images:
   total-qty: "Number of images"
-  properties:
-    src: "Image URL"
-    fit: ["object-cover", "object-contain", "object-fill", "object-none", "object-scale-down"]
-    style: "Other image styling attributes"
+  src: "https://placehold.co/[WxH]"
+  fit: ["object-cover", "object-contain", "object-fill", "object-none", "object-scale-down"]
 
 Backgrounds:
   color: ["bg-transparent", "bg-white", "bg-black", "bg-gray-500", "bg-red-500", "bg-blue-500"]
@@ -152,7 +150,7 @@ Other Styling:
   opacity: ["opacity-0", "opacity-50", "opacity-100"]
   z-index: ["z-0", "z-10", "z-20", "z-30", "z-40", "z-50"]
 ```
-### Component 1: [Component Type]
+### Component 1
 ...
 
 # Segment [X] Code Snippet
@@ -163,14 +161,13 @@ Other Styling:
 ```
 """
 
-3. After all segments, prompt the user with:
+3. Upon completing the documentation & code snippets for all segments, prompt the user with:
 
 "Confirm with `C` to proceed to STEP 4."
 
 ### STEP 4: FINAL REVIEW & USER CONFIRMATION
 
 1. Present the complete codebase for web browser rendering. Be ready for iterative enhancements based on the output & user feedback.
-
 2. Incorporate external resources:
 - FontAwesomeIcons: `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
 - TailwindCSS: `<script src="https://cdn.tailwindcss.com"></script>`

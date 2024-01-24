@@ -82,42 +82,91 @@ display_segment('/mnt/data/segment_0.jpeg')
 
 """
 
-# Segment [X]: {Name of Segment}
+# Segment [X]
+## {Name of Segment}
 **Path**: '/mnt/data/segment_x.jpeg'
 **Size**: Width x Height in pixels
 
-## Description:
-{Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (8-12 sentence) description.}
+## Initial Assessment:
+{Expository, in-depth, comprehensive, analytical, detailed examination of the segment, it’s purpose, & how it fits into the overall wireframe, utilizing technical & specialized front-end design/development jargon, a neutral & detached tone aimed for clarity & logical information flow to formulate a well-defined (10-12 sentence) description.}
 
-## UI Components & Elements
+# Segment [X] Components & Elements
 
-> KEY: V = Value, TW = TailwindCSS
-
-### Component 0: {Component Type}
+## Component 0: {Component Type}
 
 ```YAML
 Tag: HTML Tag
-Description: {Detailed purpose, functionality, & UI role}
+Description: "Detailed purpose, functionality, & UI role"
 Properties:
-  - GeneralLayout: [display: {block, inline-block, inline, flex, grid}, position: {static, relative, absolute, fixed, sticky}, width: {Value (V), %, Tailwind (TW) class}, height: {V, %, TW class}, margin: {top, right, bottom, left, TW class}, padding: {top, right, bottom, left, TW class}]
-  - Typography: [content: {exact text shown in image}, font-size: {V, TW class}, font-weight: {normal, bold, 100-900, TW class}, text-align: {left, center, right, justify, TW class}, color: {color V, TW class}]
-  - Icons: [total-qty: {exact number of icons}, class: {fa-icon-name}, icon-size: {V, TW class}, color: {color V, TW class}]
-  - Images: [total-qty: {exact number of images within the component}, individual-image-properties: [src: {https://placehold.co/[WxH]}, image-fit: {fill, contain, cover, scale-down}, other-image-styling: {additional styling properties}]
-  - Backgrounds: [background-color: {color V, TW class}, background-size: {V, cover, contain, TW class}, background-position: {position, TW class}]
-  - Borders: [border-width: {V, TW class}, border-color: {color V, TW class}, border-radius: {V, TW class}, border-style: {none, solid, dotted, dashed, TW class}]
-  - FlexboxLayout: [flex-direction: {row, row-reverse, column, column-reverse}, flex-wrap: {nowrap, wrap, wrap-reverse}, justify-content: {flex-start, flex-end, center, space-between, space-around}, align-items: {stretch, flex-start, flex-end, center, baseline}, align-self: {auto, flex-start, flex-end, center, baseline, stretch}]
-  - GridLayout: [grid-template-columns: {track size}, grid-template-rows: {track size}, grid-gap: {gap size}, grid-column: {column line}, grid-row: {row line}]
-  - BoxModel: [box-shadow: {offsets, color, blur, spread}, object-fit: {fill, contain, cover, scale-down}, overflow: {visible, hidden, scroll, auto}]
-  - Responsiveness: [max-width: {V, %}, min-width: {V, %}, max-height: {V, %}, min-height: {V, %}]
-  - Other Styling: [visibility: {visible, hidden}, opacity: {V}, z-index: {V}]
+  GeneralLayout:
+    display: ["block", "inline-block", "inline", "flex", "grid"]
+    position: ["static", "relative", "absolute", "fixed", "sticky"]
+    width: ["Value (V)", "%", "Tailwind (TW) class"]
+    height: ["V", "%", "TW class"]
+    margin: ["top", "right", "bottom", "left", "TW class"]
+    padding: ["top", "right", "bottom", "left", "TW class"]
+  Typography:
+    content: "exact text shown in image"
+    font-size: ["V", "TW class"]
+    font-weight: ["normal", "bold", "100-900", "TW class"]
+    text-align: ["left", "center", "right", "justify", "TW class"]
+    color: ["color V", "TW class"]
+  Icons:
+    total-qty: "exact number of icons"
+    class: "fa-icon-name"
+    icon-size: ["V", "TW class"]
+    color: ["color V", "TW class"]
+  Images:
+    total-qty: "exact number of images within the component"
+    individual-image-properties:
+      src: "https://placehold.co/[WxH]"
+      image-fit: ["fill", "contain", "cover", "scale-down"]
+      other-image-styling: "additional styling properties"
+  Backgrounds:
+    background-color: ["color V", "TW class"]
+    background-size: ["V", "cover", "contain", "TW class"]
+    background-position: ["position", "TW class"]
+  Borders:
+    border-width: ["V", "TW class"]
+    border-color: ["color V", "TW class"]
+    border-radius: ["V", "TW class"]
+    border-style: ["none", "solid", "dotted", "dashed", "TW class"]
+  FlexboxLayout:
+    flex-direction: ["row", "row-reverse", "column", "column-reverse"]
+    flex-wrap: ["nowrap", "wrap", "wrap-reverse"]
+    justify-content: ["flex-start", "flex-end", "center", "space-between", "space-around"]
+    align-items: ["stretch", "flex-start", "flex-end", "center", "baseline"]
+    align-self: ["auto", "flex-start", "flex-end", "center", "baseline", "stretch"]
+  GridLayout:
+    grid-template-columns: "track size"
+    grid-template-rows: "track size"
+    grid-gap: "gap size"
+    grid-column: "column line"
+    grid-row: "row line"
+  BoxModel:
+    box-shadow: "offsets, color, blur, spread"
+    object-fit: ["fill", "contain", "cover", "scale-down"]
+    overflow: ["visible", "hidden", "scroll", "auto"]
+  Responsiveness:
+    max-width: ["V", "%"]
+    min-width: ["V", "%"]
+    max-height: ["V", "%"]
+    min-height: ["V", "%"]
+  Other Styling:
+    visibility: ["visible", "hidden"]
+    opacity: "V"
+    z-index: "V"
+```
 
-### Component 1: {Component Type}
-- ...
+## Component 1: {Component Type}
+
+```YAML
+...
 ```
 
 # Code Snippet for Segment [X]
 
-```html
+```HTML
 <div class="...">
   <!-- Complete HTML structure with Tailwind styling, ensuring exact replication of the UI segment. Avoid placeholders & ensure that the code is exhaustive in detail. -->
 </div>
@@ -139,102 +188,3 @@ Properties:
 - FontAwesomeIcons: `<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">`
 - TailwindCSS: `<script src="https://cdn.tailwindcss.com"></script>`
 - Alpine.js: `<script src="//unpkg.com/alpinejs" defer></script>`
-
-# Example Code Base
-
-```HTML
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hat Builder Application</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-  <script src="//unpkg.com/alpinejs" defer></script>
-</head>
-
-<body>
-
-  <!-- Header section -->
-  <div class="flex items-center justify-between pt-2 pl-5 pr-5">
-    <button class="text-gray-800 text-2xl">
-      <i class="fa-solid fa-chevron-left"></i>
-    </button>
-    <div>
-      <h1 class="text-3xl font-bold text-gray-800">Hat Builder</h1>
-      <p class="text-sm text-gray-600">pick a patch & hat</p>
-    </div>
-    <button class="text-gray-800 text-xl">
-      <i class="fa-solid fa-question"></i>
-    </button>
-  </div>
-
-  <!-- Featured product image -->
-  <div class="flex justify-center mt-4 mr-2 mb-4 ml-2 p-4">
-    <img src="https://placehold.co/200" class="object-cover rounded-lg">
-  </div>
-
-  <!-- Add to cart section -->
-  <div class="flex items-center justify-center mt-4 mb-4">
-    <button class="flex items-center justify-center w-12 h-12 ml-2 mr-2 p-2 text-gray-800 text-3xl">
-      <i class="fa-solid fa-arrow-up-from-bracket"></i>
-    </button>
-    <button class="px-6 py-2 bg-black text-white text-xl font-bold rounded-full">Add to cart</button>
-  </div>
-
-  <!-- Tab selection -->
-  <div class="flex justify-center space-x-4 pb-3">
-    <button class="text-lg font-semibold text-black">Patches</button>
-    <button class="text-lg font-semibold text-black border-b-2 border-black">Hats</button>
-  </div>
-
-  <!-- Search section -->
-  <div class="flex-stretch items-center justify-center pl-3 pr-3 pb-4">
-    <div class="flex items-center p-2 bg-white border-2 border-gray-300 rounded-full shadow-sm">
-      <i class="fas fa-search text-lg text-gray-600 pl-3"></i>
-      <input class="w-full bg-transparent pl-4 pr-1 text-md text-gray-700" type="search" placeholder="Search">
-    </div>
-    <div class="flex items-center">
-      <button class="text-lg text-gray-600 pl-2 pr-2">
-        <i class="fas fa-sliders-h"></i>
-      </button>
-    </div>
-  </div>
-
-  <!-- Product cards section -->
-  <div
-    x-data="{ categories: [{name: 'All Patches', patches: 518, colors: ['#000000', '#000000', '#000000']},{name: 'NASCAR', patches: 84, colors: ['#000000', '#000000', '#000000']}, {name: 'Racing', patches: 139, colors: ['#000000', '#000000', '#000000']}, {name: 'Outdoor', patches: 25, colors: ['#000000', '#000000', '#000000']}] }"
-    class="flex flex-wrap justify-center gap-2">
-
-    <template x-for="category in categories" :key="category.name">
-      <div class="flex flex-col items-center">
-        <div class="rounded-card"
-          style="width: 12rem; overflow: hidden; background-color: transparent; border-radius: 1.5rem;">
-          <div class="flex" style="gap: 0.075rem;">
-            <!-- Large Image with unique color -->
-            <div class="flex-grow"
-              :style="'flex-basis: 0; flex-grow: 2; aspect-ratio: 1 / 1; background-color: ' + category.colors[0]">
-            </div>
-            <!-- Small Images Container -->
-            <div class="flex flex-col flex-grow" style="flex-basis: 0; flex-grow: 1; gap: 0.075rem;">
-              <!-- Top Small Image with unique color -->
-              <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[1]"></div>
-              <!-- Bottom Small Image with unique color -->
-              <div class="flex-grow" :style="'aspect-ratio: 1 / 1; background-color: ' + category.colors[2]"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Text Container -->
-        <div class="text-left mt-4" style="width: 12rem; padding-left: 0.25rem;">
-          <h2 class="text-2xl font-bold" x-text="category.name"></h2>
-          <p class="text-gray-700" x-text="category.patches + ' Patches'"></p>
-        </div>
-      </div>
-    </template>
-  </div>
-</body>
-
-</html>
-```

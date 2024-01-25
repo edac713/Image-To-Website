@@ -78,7 +78,7 @@ display_segment('/mnt/data/segment_0.jpeg')
 
 ## Component Documentation
 ### Component 0
-**Type**: [Component/Element Type (e.g., Back Navigation Chevron Icon, Title, Subtitle, Help Icon, Placeholder Image, Share Icon, Add to Cart Button, Category Tabs/Toggle, Search Input Field, Search Icon, Filter Icon, Product Card, etc.)]
+**Type**: [Component/Element Type (e.g., Back Navigation Chevron Icon, Title/Subtitle, Help Icon, Placeholder Image, Share Icon, Add to Cart Button, Category Tabs/Toggle, Search Input Field, Search Icon, Filter Icon, Product Card, etc.)]
 **Tag**: [HTML Tag]
 **Description**: "Provide a breif detailed description of the component's purpose, functionality, & role in the UI. Maintain a neutral, clear tone in a 4-6 sentence description."
 **Properties**:

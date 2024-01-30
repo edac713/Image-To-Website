@@ -114,9 +114,9 @@ components:
 5. If user `C` confirms, you will automatically generate an impeccably accurate detailed code snippet for said segment. Strive for an EXACT representation!:
 
 ```html
-  <div class="[tailwind_classes for layout, typography, etc.]">
-    <!-- Detailed HTML structure with Tailwind CSS styling -->
-  </div>
+<div class="[tailwind_classes for layout, typography, etc.]">
+  <!-- Detailed HTML structure with Tailwind CSS styling -->
+</div>
 ```
 
 6. Upon completing the documentation & code snippets for all segments, prompt the user with:
